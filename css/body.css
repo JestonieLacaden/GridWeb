@@ -1,0 +1,72 @@
+.wrapper{
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1600px;
+}
+
+.panel-form{
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 1rem;
+  position: relative;
+  margin: 0rem 0rem 1.625rem;
+  background: url('../img/Grid2.PNG');
+}
+
+.panel-form a{
+  text-decoration: none;
+  color: var(--color);
+}
+
+.content-body h2{
+  font-weight: 700;
+  font-size: 1.6875rem;
+  line-height: 2.4375rem;
+}
+
+.panel-primary{
+  background: url('../img/inflicted.png');
+  grid-column: 1/4;
+  color: var(--main-color);
+  margin: 0rem 0rem 1.625rem;
+  border-radius: 3px;
+  padding: 1rem;
+}
+
+.panel-primary a{
+  color: var(--main-color);
+}
+
+.panel-primary h1{
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.panel-get-started{
+  grid-column: 1/6;
+  background-color: var(--optional-color);
+  margin: 0rem 0rem 1.625rem;
+  border-radius: 3px;
+  padding: 1rem;
+}
+
+.panel-get-started a{
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.panel-get-started h2{
+  font-weight: 700;
+}
+
+.b::before{
+  position: absolute;
+  content: "New!";
+  background-color: var(--color-green);
+  color: var(--main-color);
+  top: -0.8rem;
+  left: -0.8rem;
+  padding: 0.3rem 0.5rem;
+  display: inline-block;
+  transform: rotate(-20deg);
+}
