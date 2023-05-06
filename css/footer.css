@@ -1,0 +1,18 @@
+.footer{
+  background-color: rgba(0, 0, 0, 0.98);
+    background-image: url('../img/inflicted.png');
+    color: #000;
+    padding: 1rem 0;
+    margin: 4rem 0 0 0;
+    font-size: 85%;
+}
+
+.footer .wrapper{
+  background-color: rgb(255, 255, 255,0.6);
+  padding: 1rem;
+    border-radius: 3px;
+}
+
+.footer a{
+  color: #000;
+}
