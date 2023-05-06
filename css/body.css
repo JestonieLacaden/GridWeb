@@ -4,6 +4,10 @@
   max-width: 1600px;
 }
 
+.content-body p{
+  margin-bottom: 26px !important;
+}
+
 .panel-form{
   border: 1px solid #999;
   border-radius: 3px;
